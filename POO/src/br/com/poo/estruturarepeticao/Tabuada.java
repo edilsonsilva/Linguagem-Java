@@ -11,6 +11,8 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 public class Tabuada extends JFrame {
+	public Tabuada() {
+	}
 
 	static String dados = "";
 	
@@ -48,7 +50,7 @@ public class Tabuada extends JFrame {
 		 */
 		lblNumero.setBounds(10,10,250,30);
 		//Vamos adicionar a label(lblNumero) a tela janela
-		janela.add(lblNumero);
+		janela.getContentPane().add(lblNumero);
 		
 		/*
 		 * Vamos adicionar um novo componente chamado JTextArea 
@@ -59,7 +61,7 @@ public class Tabuada extends JFrame {
 		txtResultado.setBounds(10,40,463,300);
 		
 		//adicionar a caixa de texto a janela
-		janela.add(txtResultado);
+		janela.getContentPane().add(txtResultado);
 		
 		
 		/*
@@ -69,12 +71,12 @@ public class Tabuada extends JFrame {
 		 * */
 		JTextField txtNumero = new JTextField();
 		txtNumero.setBounds(210,5,30,30);
-		janela.add(txtNumero);
+		janela.getContentPane().add(txtNumero);
 		
 		
 		JButton btnCalcular = new JButton("Calcular");
 		btnCalcular.setBounds(250,5,200,30);
-		janela.add(btnCalcular);
+		janela.getContentPane().add(btnCalcular);
 		
 		
 		
