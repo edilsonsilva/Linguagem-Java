@@ -3,6 +3,9 @@ package br.com.poo.objetos;
 import java.sql.Date;
 
 import br.com.poo.classes.Cliente;
+import br.com.poo.classes.heranca.Funcionario;
+import br.com.poo.classes.heranca.Pessoa;
+import br.com.poo.classes.heranca.PessoaFisica;
 
 public class CriarCliente {
 
@@ -20,6 +23,7 @@ public class CriarCliente {
 		
 		//Vamos cadastrar o cliente acima com o comando cadastrar
 		System.out.println(cliente1.cadastrar());
+				
 		
 
 	}

@@ -90,7 +90,7 @@ public class Padaria extends JFrame {
 			
 		
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Padaria.class.getResource("/br/com/poo/images/logopadaria3.jpg")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Padaria.class.getResource("/br/com/poo/images/logopadaria1.jpg")));
 		setResizable(false);
 		setTitle("Janela Padaria");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
